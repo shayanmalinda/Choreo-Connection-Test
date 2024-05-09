@@ -1,0 +1,13 @@
+outbound:
+    serviceReferences:
+    - name: choreo:///shayan/dependency-project/umioaj/5c69c/v1/PUBLIC
+      connectionConfig: 01ef0dc4-2490-1df8-80bd-776c36b2b760
+      env:
+      - from: ServiceURL
+        to: SERVICE_URL
+      - from: ConsumerKey
+        to: CONSUMER_KEY
+      - from: ConsumerSecret
+        to: CONSUMER_SECRET
+      - from: TokenURL
+        to: TOKEN_URL
